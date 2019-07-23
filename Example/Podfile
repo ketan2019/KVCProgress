@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVCProgress_Example' do
+  pod 'KVCProgress', :path => '../'
+
+  target 'KVCProgress_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
